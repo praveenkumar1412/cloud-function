@@ -15,7 +15,7 @@ def run_job(f, b):
         client = run_v2.JobsClient()
 
         job_request_1 = run_v2.RunJobRequest(
-            name="projects/project-4-workndemos/locations/us-central1/jobs/hrc",
+            name="projects/project-4-workndemos/locations/us-central1/jobs/pk-pipeline",
             overrides=override_spec
         )
         operation_1 = client.run_job(request=job_request_1)
